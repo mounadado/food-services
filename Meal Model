@@ -1,0 +1,64 @@
+class Meal :
+
+    def __init__(self, Name, Description, Price, Image ):
+        self.Name = Name
+        self.Description = Description
+        self.Price = Price
+        self.Image = Image
+
+Meal1 = Meal(Name= 'Burgar', Description= 'With Slices Of Meat & Cheese' , Price= '15 $' ,
+          Image='file:///C:/Users/acer/AppData/Local/Temp/Rar$DIa4544.32215/meal1.jpg' )
+Meal2 = Meal(Name= 'Grilled chicken', Description= 'With Avocado & Lettuce' , Price= '30 $' ,
+          Image= 'https://academy-discorce-s3.s3.dualstack.us-east-2.amazonaws.com/upload/original/2X/f/f3c39987ea00d4d186f6f0d41d9aa5f274190fd9.jpeg')
+Meal3 = Meal(Name= 'Steak', Description= 'With Fresh Vegetables & Juice' , Price= '35 $' ,
+          Image='https://academy-discorce-s3.s3.dualstack.us-east-2.amazonaws.com/upload/original/2X/3/31b44ea15e8a14895fd9383e7845fd7a1bc96838.jpeg' )
+Meal4 = Meal(Name= 'Potato With Bechamel', Description= 'With Spices & Herbs' , Price= '20 $' ,
+           Image='https://academy-discorce-s3.s3.dualstack.us-east-2.amazonaws.com/upload/original/2X/0/04274034174fb71006e950b05292abc3934f9f1e.jpeg' )
+Meals = [Meal1, Meal2,Meal3,Meal4]
+print(Meals)
+
+
+class Order :
+
+    def __init__(self, Meal, Customer_Name, Customer_Mobile, Customer_Adress, Email, Image ):
+        self.Meal = Meal
+        self.Customer_Name = Customer_Name
+        self.Customer_Mobile = Customer_Mobile
+        self.Customer_Adress = Customer_Adress
+        self.Email = Email
+        self.Image = Image
+
+Order1 = Order(Meal= Meal1 , Customer_Name= 'Bayan Radaideh' , Customer_Mobile= '0799999999' , Customer_Adress= 'Amman' ,
+          Email='bayanmradaideh@gmail.com' ,
+          Image='file:///C:/Users/acer/AppData/Local/Temp/Rar$DIa4544.32215/meal1.jpg' )
+Order2 = Order(Meal= Meal2, Customer_Name= 'Bayan Radaideh' , Customer_Mobile= '0799999999' , Customer_Adress= 'Amman' ,
+           Email='bayanmradaideh@gmail.com' ,
+           Image='https://academy-discorce-s3.s3.dualstack.us-east-2.amazonaws.com/upload/original/2X/c/c578bbe59096c8235855bbb17b6250de44eff548.jpeg' )
+Order3 = Order(Meal= Meal3 , Customer_Name= 'Bayan Radaideh' , Customer_Mobile= '0799999999' , Customer_Adress= 'Amman' ,
+          Email='bayanmradaideh@gmail.com' ,
+          Image= 'https://academy-discorce-s3.s3.dualstack.us-east-2.amazonaws.com/upload/original/2X/f/f3c39987ea00d4d186f6f0d41d9aa5f274190fd9.jpeg')
+
+Orders = [Order1, Order2, Order3]
+print(Orders)
+
+
+
+
+class Meal :
+
+    def __init__(self, Name, Description, Price, Image ):
+        self.Name = Name
+        self.Description = Description
+        self.Price = Price
+        self.Image = Image
+
+Meal1 = Meal(Name= 'Burgar', Description= 'With Slices Of Meat & Cheese' , Price= '15 $' ,
+          Image='file:///C:/Users/acer/AppData/Local/Temp/Rar$DIa4544.32215/meal1.jpg' )
+Meal2 = Meal(Name= 'Grilled chicken', Description= 'With Avocado & Lettuce' , Price= '30 $' ,
+          Image= 'https://academy-discorce-s3.s3.dualstack.us-east-2.amazonaws.com/upload/original/2X/f/f3c39987ea00d4d186f6f0d41d9aa5f274190fd9.jpeg')
+Meal3 = Meal(Name= 'Steak', Description= 'With Fresh Vegetables & Juice' , Price= '35 $' ,
+          Image='https://academy-discorce-s3.s3.dualstack.us-east-2.amazonaws.com/upload/original/2X/3/31b44ea15e8a14895fd9383e7845fd7a1bc96838.jpeg' )
+Meal4 = Meal(Name= 'Potato With Bechamel', Description= 'With Spices & Herbs' , Price= '20 $' ,
+           Image='https://academy-discorce-s3.s3.dualstack.us-east-2.amazonaws.com/upload/original/2X/0/04274034174fb71006e950b05292abc3934f9f1e.jpeg' )
+Meals = [Meal1, Meal2,Meal3,Meal4]
+print(Meals)
